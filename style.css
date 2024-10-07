@@ -1,10 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Afacad Flux; 
 }
 
-header{
-    
+body {
+    font-family: Afacad Flux; 
+    background-color: #494B4C; 
+}
+
+header {
+    background-color: #77B6EA; 
+    height: 8rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #37393A;
+}
+
+.carro-s {
+    display: flex;
+    align-items: center; 
+    max-width: 800px;
+    margin: 2rem auto; 
+}
+
+.carro-s p {
+    max-width: 400px; 
+    margin-right: 2rem; 
+}
+
+.carro-s img {
+    width: 15rem;
+    height: auto; 
+}
+
+
+.carro-suv {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #C7D3DD; 
+    height: 25rem; 
+    margin: 2rem 0; 
+}
+
+.carro-suv img {
+    width: 20rem; 
+    height: auto; 
+    margin: 0 1rem; 
+}
+
+.carro-suv p {
+    max-width: 300px; 
+    margin: 0 1rem; 
+}
+
+.tipos-de-carro {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 2rem 0; 
+}
+
+.tipos-de-carro img {
+    width: 15rem; 
+    height: auto; 
+    margin: 0.5rem 0; 
 }
