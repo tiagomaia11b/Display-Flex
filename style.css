@@ -40,11 +40,11 @@ header {
 .carro-suv img {
     width: 20rem; 
     height: auto; 
-    margin: 0 1rem; 
+    margin: 0.1rem; 
 }
 .carro-suv p {
     max-width: 304px; 
-    margin: 0 1rem; 
+    margin: 0.1rem; 
 }
 
 .tipos-de-carro img {
