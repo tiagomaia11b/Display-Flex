@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    font-family: 'Afacad Flux', sans-serif; 
+    font-family: Afacad Flux; 
     background-color: #494B4C; 
 }
-
 header {
     background-color: #77B6EA; 
     height: 8rem; 
@@ -17,24 +15,20 @@ header {
     justify-content: center;
     color: #37393A;
 }
-
 .carro-s {
     display: flex;
     align-items: center; 
-    max-width: 800px;
+    max-width: 802px;
     margin: 2rem auto; 
 }
-
 .carro-s p {
-    max-width: 400px; 
+    max-width: 401px; 
     margin-right: 2rem; 
 }
-
 .carro-s img {
     width: 15rem;
     height: auto; 
 }
-
 .carro-suv {
     display: flex;
     align-items: center; 
@@ -43,30 +37,19 @@ header {
     height: 25rem; 
     margin: 2rem 0; 
 }
-
 .carro-suv img {
     width: 20rem; 
     height: auto; 
     margin: 0 1rem; 
 }
-
 .carro-suv p {
-    max-width: 300px; 
+    max-width: 304px; 
     margin: 0 1rem; 
 }
 
-.tipos-de-carro {
-    display: flex;
-    align-items: center; 
-    margin: 2rem 0; 
-}
-
-.tipo {
-    text-align: center; 
-}
-
 .tipos-de-carro img {
-    width: 15rem; 
-    height: auto; 
-    margin-bottom: 0.5rem; 
+    display: block; 
+    width: 100%; 
+    max-width: 302px; 
+    margin: 0 auto 1rem; 
 }
